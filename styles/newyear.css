@@ -41,6 +41,11 @@ body {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
+main {
+    width: 1320px;
+    margin: auto;
+}
+
 #discount {
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -49,13 +54,14 @@ body {
     align-items: center;
     background-color: antiquewhite;
     border-radius: 20px;
+    margin-top: 120px;
+
 }
 
 #discount h1 {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
-    margin-top: 120px;
     margin-bottom: 48px;
 }
 
@@ -77,11 +83,16 @@ body {
 
 #discount img {
     width: 802.9px;
+    margin-bottom: 40px;
 }
 
 #welcome-bg {
     background-image: url("../images/Vectorrr.png");
     background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 100%;
+
 }
 
 
@@ -89,6 +100,7 @@ body {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     display: flex;
     padding: 66px 138px 66px 126px;
+    border-radius: 20px;
 }
 
 #welcome h1 {
@@ -113,3 +125,112 @@ body {
     background-color: transparent;
     border: none;
 }
+
+#place {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 100px auto 0;
+    border-radius: 20px;
+    margin-bottom: 120px;
+    padding-top: 100px;
+}
+
+
+#place button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    border: none;
+    margin-top: 48p;
+}
+
+#new-best-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 70px; */
+    align-items: center;
+}
+
+#first-img {
+    border: 10px solid #F00;
+    border-radius: 463px;
+    padding: 25px;
+}
+
+#new-best {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#coming-soon {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+#dolor {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#dolor-set {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+#year-container {
+    padding-left: 120px;
+}
+
+#year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#dolor-set {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+}
+
+#second-img {
+    width: 140px;
+    height: 140px;
+}
+
+
