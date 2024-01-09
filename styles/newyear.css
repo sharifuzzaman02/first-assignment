@@ -337,6 +337,14 @@ main {
     gap: 24px;
 }
 
+#portfolio>div>img {
+    border: 5px solid transparent;
+}
+
+#portfolio>div>img:hover {
+    border: 5px solid green
+}
+
 #newsletter {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -364,7 +372,7 @@ main {
     margin-bottom: 48px;
 }
 
-#newsletter>div{
+#newsletter>div {
     display: flex;
     gap: 0;
 }
@@ -379,7 +387,6 @@ main {
 
 #newsletter>div>input::placeholder {
     color: rgba(7, 2, 17, 0.30);
-    text-align: center;
     font-family: Inter;
     font-size: 18px;
     padding: 25px 477px 25px 30px;
@@ -398,3 +405,43 @@ main {
     border: none;
 }
 
+footer {
+    /* height: 609px; */
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 120px 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.first {
+    justify-content: space-between;
+}
+
+.third {
+    justify-content: center;
+}
+
+#contact img {
+    width: 24px;
+    height: 24px;
+}
+
+#contact>div {
+    align-items: center;
+    gap: 16px;
+}
+
+#unsubscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
